@@ -1,0 +1,47 @@
+@import '../../styles/_variables.scss';
+.display__waitingroom{
+    position: relative;
+    text-align: center;
+
+}
+.display__quizcode{
+    font-family: cursive
+}
+
+.display__playersarea{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.startgame_link{
+    display: inline-block;
+    font-family: cursive;
+    background-image: linear-gradient(to right bottom, #b757f3 0%, $color-green-dark 100%);
+    color: $color-black;
+    margin: 50px auto;
+    padding: 20px;
+    width: 350px;
+    color: $color-white;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px $color-black;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.4s;
+
+
+    &:hover{
+        transform: translateY(-.1rem) scale(1.03);
+        box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
+    }
+}
+
+.waitroom__header{
+    text-align: center;
+    width: 100vw;
+    color: $color-white;
+    padding: 10px;
+    height: 100px;
+    font-size: 30px;
+    font-family: cursive;
+    background-image: linear-gradient(to right bottom, #b757f3 0%, $color-green-dark 100%);
+}

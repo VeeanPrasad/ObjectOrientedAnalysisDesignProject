@@ -1,0 +1,12 @@
+@import '../../../styles/_variables.scss';
+.quizcode{
+    display: inline-block;
+    // background-image: linear-gradient(to right bottom, $color-red-light 0%, $color-red-dark 100%);
+    color: $color-black;
+    margin: 30px auto;
+    padding: 20px;
+    
+    font-size: 30px;
+    
+    border-radius: 10px;
+}

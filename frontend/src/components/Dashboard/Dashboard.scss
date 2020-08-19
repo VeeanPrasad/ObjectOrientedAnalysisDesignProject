@@ -1,0 +1,22 @@
+@import '../../../src/styles/variables';
+
+.displayQuizzes{
+    text-align: center
+}
+
+.header{
+    position: fixed;
+    width: 100vw;
+    color: $color-white;
+    padding: 30px;
+    height: 100px;
+    margin-bottom: 200px;
+    background-image: linear-gradient(to right bottom, #b757f3 0%, $color-green-dark 100%);
+    font-family: cursive;
+}
+
+.displayCards{
+    position: absolute;
+    margin-top: 120px;
+    z-index: -1000;
+}
